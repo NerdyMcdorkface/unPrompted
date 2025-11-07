@@ -1,15 +1,3 @@
 # unPrompted Version One 
 ### 1.0.0 
-A 'colorful' and cool, fairly 'simp-chimp'(me) bash prompt err...'enhancement',
-which *should* work well with basically *any* distro, features:
- - gradient colors
- - single/double/triplet color &/or icon
- - classic 'bar' style brackets (think Kali Linux - 'Backtrack' vibes)
- - includes clown show with Agentic AI just for *CrInGe*
- - my dude Copilot was struggling and throwing as much distance as possible
- - Copilot made about 45 references back to Claude to make it crystal clear whom was NOT going to be last gen when repo is pushed to Github.
- - Claude-Code = Beast.
- - Vibe Code. IDC if you Full Stack some yet to be JS, it's a hoot with inline on trust me.
- - Use/mod/sell/idc don't be evilLooking at you now Gemini whaddup...?
-    
-  Have fun and mod it up.
+A throwback style bashrc replacement with some colorful single line and double line style PS1, inspired by Kali Linuxs default  look in the terminal. Tested well on Arch but should work just as well in any modern distro. You will need the ip command as it will display your external IP address inline beside a local IP address. It's fine to remove it comment out this feature should you desire to do so. I will be adding a couple new versions for use with Termux on android as IP addresses are not working without root, the socket is not allowed so make sure you are using the correct release. I recommend using the install script as it will backup your existing bashrc file before replacing and sourcing the new one. This is fine tondo manually also if you prefer. I did this as a learning experience I hope someone else gets some enjoyment from it also. 
